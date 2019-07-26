@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Gas Calculator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+  </head>
+  <body class="body">
+    <h1 class="heading">Choose Your Vehicle</h1>
+    <select id="carSelection">
+      <option value="chevroletTahoe">2000 Chevorlet Tahoe</option>
+      <option value= "toyotaRav4">2019 Toyota Rav-4</option>
+      <option value= "hondaCRV">2019 Honda CR-V</option>
+      <option value= "subaruOutback">2019 Subaru Outback</option>
+      <option value= "nissanRouge">2019 Nissan Rouge</option>
+      <option value= "mitsubishiOutlander">2019 Mitsubishi Outlander</option>
+    </select>
+    <br><br>
+    <h1 class="heading">Current Price of Gas in Your Area</h1>
+    <input type="number" class="input" class="gasPrice" id="gasArea">
+<!--     <button>Enter</button> -->
+    <a href="https://www.gasbuddy.com/" style="text-decoration: none;"><p class="p">Find Price of Gas in Your Area</p></a>
+    <br>
+    <h1 class="heading">Money Spent on Gas</h1>
+    <input type="number" class="input" class="gasSpent"  id= "spentGas">
+    <br><br><br><br>
+    <button onclick='calc()' class="button">Go!</button>
+    <input class="input" id="results" readOnly></input>
+  <span class="span">is how many miles you can travel</span>
+    
+  </body>
+</html>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>

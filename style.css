@@ -1,0 +1,28 @@
+.heading{
+  color: #ffffff;
+  font-family: arial;
+     
+}
+.body{
+  background: #0296cc;
+}
+.p{
+  color:#ffffff;
+  font-family:Arial
+}
+
+.button{
+  color: white;
+  background: #15ed4f;
+  border:none;
+    border-radius: 10%;
+      font-size: 72px;
+        font-family: Arial
+}
+.span{
+  font-family:arial;
+    color: #ffffff
+}
+.input{
+  border:none
+}
